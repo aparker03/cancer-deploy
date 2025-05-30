@@ -1,12 +1,12 @@
 ## Surgical Scope: Cancer Procedure Trends in California
 
-[![Streamlit App](https://img.shields.io/badge/launch-app-brightgreen)](https://your-app-link.streamlit.app)
+[![Streamlit App](https://img.shields.io/badge/launch-app-brightgreen)](https://surgical-scope.streamlit.app)
 
 A responsive web app for exploring statewide trends in cancer surgery volumes across California hospitals from 2013 to 2022. Built for clarity and accessibility, the app allows users to filter by county, year, and surgery type while comparing distributions, trends over time, and hospital locations across 11 procedure categories.
 
 ## Launch the App
 
-Access the deployed version here: [your-app-link.streamlit.app](https://surgical-scope.streamlit.app)
+Access the deployed version here: [surgical-scope.streamlit.app](https://surgical-scope.streamlit.app)
 
 > **Note:** The live version of this app is optimized for performance using a streamlined dataset.  
 > For full functionality and complete data access, clone the repository and run the app locally using the instructions below.

@@ -77,18 +77,20 @@ The app supports real-time interactivity, accessible design, and clear presentat
 
 The project is organized for clarity and modular development. Each component supports reusability and ease of maintenance.
 
+```text
 cancer-deploy/
-├── cancer_app.py # Main Streamlit app script
+├── cancer_app.py            # Main Streamlit app script
 ├── data/
-│ └── surgeries.csv # Cleaned cancer surgeries dataset
-├── utils/ # Modular utility components
-│ ├── init.py
-│ ├── load.py # Data loading
-│ ├── filters.py # Sidebar controls
-│ ├── prep.py # Data preparation and transformation
-│ └── viz.py # Visualizations and plotting functions
+│   └── surgeries.csv        # Cleaned cancer surgeries dataset
+├── utils/                   # Modular utility components
+│   ├── __init__.py
+│   ├── load.py              # Data loading
+│   ├── filters.py           # Sidebar controls
+│   ├── prep.py              # Data preparation and transformation
+│   └── viz.py               # Visualizations and plotting functions
 ├── .streamlit/
-│ └── config.toml # Streamlit theme configuration
-└── requirements.txt # Python dependencies
+│   └── config.toml          # Streamlit theme configuration
+└── requirements.txt         # Python dependencies
+```
 
 The app runs entirely from local files to ensure consistent behavior during deployment. No external APIs or cloud services are required. Each module is structured to promote transparency, reproducibility, and ease of extension as future datasets or visualizations are added.
